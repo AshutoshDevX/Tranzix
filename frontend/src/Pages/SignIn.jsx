@@ -13,8 +13,8 @@ export const SignIn = () => {
     const [password, setPassword] = useState("");
     const navigate = useNavigate();
     localStorage.clear();
-    return <div className="bg-slate-300 h-screen flex justify-center">
-        <div onClick={() => navigate('/')} className="absolute left-10 top-7 text-2xl font-bold">Tranzix</div>
+    return <div className="bg-black h-screen flex justify-center">
+        <div onClick={() => navigate('/')} className="text-white absolute left-10 top-7 text-2xl font-bold">Tranzix</div>
         <div className="flex flex-col justify-center">
             <div className="rounded-lg bg-white w-80 text-center p-2 h-max px-4">
                 <Heading label={"Sign In"} />
