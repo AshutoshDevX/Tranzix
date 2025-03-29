@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+* {
+  @apply border-gray-300;
+}
